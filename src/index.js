@@ -1,2 +1,4 @@
 import "./styles.css"
-console.log("Hello world");
+import { generateHome } from "./home-module";
+
+generateHome();
