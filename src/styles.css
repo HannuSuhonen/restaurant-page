@@ -12,7 +12,7 @@ img{
     max-height: auto;
 }
 
-#content{
+#content > div{
     display: flex;
     flex-direction: column;
     align-items: center;

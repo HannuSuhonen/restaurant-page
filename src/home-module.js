@@ -1,8 +1,9 @@
 import chefImgFile from "../assets/images/chef.jpg";
 
-let content = document.getElementById("content");
+// let content = document.getElementById("content");
 
 export function generateHome(){ 
+    let content = document.createElement("div");
     const title = document.createElement("h1");
     title.textContent = "Yakitori Japan!";
     content.appendChild(title);
@@ -26,5 +27,7 @@ export function generateHome(){
     const thirdParagrah = document.createElement("p")
     thirdParagrah.textContent = "Join us for an unforgettable dining experience where the artistry of Japanese cooking comes alive on your plate.";
     content.appendChild(thirdParagrah);
+
+    return content;
 };
 
