@@ -12,9 +12,9 @@ export function generateHome(){
     subtitle.textContent = "Welcome to Yakitori Japan, where tradition meets innovation in every bite."
     content.appendChild(subtitle);
     
-    const chefImg = document.createElement("img");
-    chefImg.src = chefImgFile
-    content.appendChild(chefImg);
+    // const chefImg = document.createElement("img");
+    // chefImg.src = chefImgFile
+    // content.appendChild(chefImg);
 
     const firstParagrah = document.createElement("p")
     firstParagrah.textContent = "Nestled in the heart of Sotenbori, Yakitori Japan invites you on a culinary journey through Japan's rich flavors and timeless traditions. Our head chef, Hiroshi Tanaka, brings over 20 years of experience and a passion for perfection to every dish he creates. Trained in the renowned kitchens of Tokyo, Chef Hiroshi combines traditional techniques with modern flair, crafting an exquisite menu that honors the essence of Japanese cuisine while embracing fresh, seasonal ingredients";
