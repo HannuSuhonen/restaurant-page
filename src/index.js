@@ -4,7 +4,7 @@ import { generateMenu } from "./menu-module";
 import { generateAbout } from "./about-module";
 
 let content = document.getElementById("content");
-content.appendChild(generateHome());
+content.appendChild(generateMenu());
 
 (function initButtonListeners(){
     let homeBtn = document.querySelector(".home-button");
