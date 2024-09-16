@@ -34,7 +34,7 @@ let beverages = [
     "Green Tea (Hot or Iced) - $4", 
     "House-Made Yuzu Lemonade - $6",
     "Sake Flight - A curated selection of three premium sakes. - $18",
-    "Japanese Whiskey Selection – Starting at $15"
+    "Japanese Whiskey Selection - Starting at $15"
 ];
 export function generateMenu(){ 
     let content = document.createElement("div");
