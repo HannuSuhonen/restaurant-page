@@ -43,7 +43,7 @@ export function generateMenu(){
     title.textContent = "Menu of Yakitori Japan:";
     content.appendChild(title);
 
-    content.appendChild(generateMeals("Appetizers",appetizerMealsList));
+    content.appendChild(generateMeals("testing",appetizerMealsList));
     content.appendChild(generateMeals("Nigiri & Sushi",sushiMealsList));
     content.appendChild(generateMeals("Signature Rolls",SignatureRolls));
     content.appendChild(generateMeals("Main Courses",mainCourses));
